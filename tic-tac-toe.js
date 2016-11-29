@@ -9,8 +9,8 @@ function SquareClick() {
   if(topleftClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 62)
-       circle.setAttribute("cy", 63)
+       circle.setAttribute("cx", 50)
+       circle.setAttribute("cy", 60)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -18,8 +18,8 @@ function SquareClick() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 42)
-      rect.setAttribute("y", 43)
+      rect.setAttribute("x", 30)
+      rect.setAttribute("y", 40)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -36,8 +36,8 @@ function SquareClick2() {
   if(topmiddleClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 162)
-       circle.setAttribute("cy", 63)
+       circle.setAttribute("cx", 150)
+       circle.setAttribute("cy", 60)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -45,8 +45,8 @@ function SquareClick2() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 142)
-      rect.setAttribute("y", 43)
+      rect.setAttribute("x", 130)
+      rect.setAttribute("y", 40)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -63,8 +63,8 @@ function SquareClick3() {
   if(toprightClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 262)
-       circle.setAttribute("cy", 63)
+       circle.setAttribute("cx", 250)
+       circle.setAttribute("cy", 60)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -72,8 +72,8 @@ function SquareClick3() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 242)
-      rect.setAttribute("y", 43)
+      rect.setAttribute("x", 230)
+      rect.setAttribute("y", 40)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -90,8 +90,8 @@ function SquareClick4() {
   if(middleleftClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 62)
-       circle.setAttribute("cy", 163)
+       circle.setAttribute("cx", 50)
+       circle.setAttribute("cy", 160)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -99,8 +99,8 @@ function SquareClick4() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 42)
-      rect.setAttribute("y", 143)
+      rect.setAttribute("x", 30)
+      rect.setAttribute("y", 140)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -117,8 +117,8 @@ function SquareClick5() {
   if(centermiddleClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 162)
-       circle.setAttribute("cy", 163)
+       circle.setAttribute("cx", 150)
+       circle.setAttribute("cy", 160)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -126,8 +126,8 @@ function SquareClick5() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 142)
-      rect.setAttribute("y", 143)
+      rect.setAttribute("x", 130)
+      rect.setAttribute("y", 140)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -144,8 +144,8 @@ function SquareClick6() {
   if(middlerightClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 262)
-       circle.setAttribute("cy", 163)
+       circle.setAttribute("cx", 250)
+       circle.setAttribute("cy", 160)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -153,8 +153,8 @@ function SquareClick6() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 242)
-      rect.setAttribute("y", 143)
+      rect.setAttribute("x", 230)
+      rect.setAttribute("y", 140)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -171,8 +171,8 @@ function SquareClick7() {
   if(bottomleftClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 62)
-       circle.setAttribute("cy", 263)
+       circle.setAttribute("cx", 50)
+       circle.setAttribute("cy", 260)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -180,8 +180,8 @@ function SquareClick7() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 42)
-      rect.setAttribute("y", 243)
+      rect.setAttribute("x", 30)
+      rect.setAttribute("y", 240)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -198,8 +198,8 @@ function SquareClick8() {
   if(bottommiddleClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 162)
-       circle.setAttribute("cy", 263)
+       circle.setAttribute("cx", 150)
+       circle.setAttribute("cy", 260)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -207,8 +207,8 @@ function SquareClick8() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 142)
-      rect.setAttribute("y", 243)
+      rect.setAttribute("x", 130)
+      rect.setAttribute("y", 240)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")
@@ -225,8 +225,8 @@ function SquareClick9() {
   if(bottomrightClicked == 0) {
      if (turn == "Player1") {
        var circle = document.createElementNS(namespace, "circle")
-       circle.setAttribute("cx", 262)
-       circle.setAttribute("cy", 263)
+       circle.setAttribute("cx", 250)
+       circle.setAttribute("cy", 260)
        circle.setAttribute("r", 20)
        circle.setAttribute("fill", "blue")
        canvas.appendChild(circle)
@@ -234,8 +234,8 @@ function SquareClick9() {
        turn="Player2"
     } else {
       var rect = document.createElementNS(namespace, "rect")
-      rect.setAttribute("x", 242)
-      rect.setAttribute("y", 243)
+      rect.setAttribute("x", 230)
+      rect.setAttribute("y", 240)
       rect.setAttribute("height", 40)
       rect.setAttribute("width", 40)
       rect.setAttribute("fill", "red")

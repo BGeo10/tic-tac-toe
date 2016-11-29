@@ -5,18 +5,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
-      <!-- Create all the shapes for your game board here! -->
-      <rect x="25" y="25" height="75" width="75" fill="gold" onclick="SquareClick()"/>
-      <rect x="125" y="25" height="75" width="75" fill="gold" onclick="SquareClick2()"/>
-      <rect x="225" y="25" height="75" width="75" fill="gold" onclick="SquareClick3()"/>
-      <rect x="25" y="125" height="75" width="75" fill="gold" onclick="SquareClick4()"/>
-      <rect x="125" y="125" height="75" width="75" fill="gold" onclick="SquareClick5()"/>
-      <rect x="225" y="125" height="75" width="75" fill="gold" onclick="SquareClick6()"/>
-      <rect x="25" y="225" height="75" width="75" fill="gold" onclick="SquareClick7()"/>
-      <rect x="125" y="225" height="75" width="75" fill="gold" onclick="SquareClick8()"/>
-      <rect x="225" y="225" height="75" width="75" fill="gold" onclick="SquareClick9()"/>
-    </svg>
+    <h1>Tic-Tac-Toe</h1>
+    <div text-align="center">
+      <svg id="game-board" align="center" width="80%" viewBox="0 0 300 300">
+        <!-- Create all the shapes for your game board here! -->
+        <rect x="13" y="20" height="75" width="75" fill="gold" onclick="SquareClick()"/>
+        <rect x="113" y="20" height="75" width="75" fill="gold" onclick="SquareClick2()"/>
+        <rect x="213" y="20" height="75" width="75" fill="gold" onclick="SquareClick3()"/>
+        <rect x="13" y="120" height="75" width="75" fill="gold" onclick="SquareClick4()"/>
+        <rect x="113" y="120" height="75" width="75" fill="gold" onclick="SquareClick5()"/>
+        <rect x="213" y="120" height="75" width="75" fill="gold" onclick="SquareClick6()"/>
+        <rect x="13" y="220" height="75" width="75" fill="gold" onclick="SquareClick7()"/>
+        <rect x="113" y="220" height="75" width="75" fill="gold" onclick="SquareClick8()"/>
+        <rect x="213" y="220" height="75" width="75" fill="gold" onclick="SquareClick9()"/>
+      </svg>
+    </div>
 
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
     <script src="tic-tac-toe.js"></script>
